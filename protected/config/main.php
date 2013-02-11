@@ -7,17 +7,21 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'SiteTakip.org - Sitelerinizi Takip edin',
-
+	'name'=>'RakipMarkaj.com | Rakiplerinizi yakın markaja alın',
+		'homeUrl' => 'http://rakipmarkaj.com/',
 	// preloading 'log' component
 	'preload'=>array('log'),
-
+		
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.extensions.*',
 	),
-
+	'aliases' => array(
+			//assuming you extracted the files to the extensions folder
+			'xmt' => 'application.extensions.xmt'
+	),
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		
@@ -25,7 +29,7 @@ return array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'gelberi',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1'),
+			//'ipFilters'=>array('127.0.0.1','::1'),
 		),
 		
 	),
@@ -83,6 +87,12 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'verilojistik@gmail.com',
 	),
 );
+
+function print_pre($arr){
+	echo '<pre>';
+		print_r($arr);
+	echo '</pre>';
+}

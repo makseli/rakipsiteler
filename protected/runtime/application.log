@@ -44,3 +44,1417 @@ Stack trace:
 REQUEST_URI=/gii/model
 HTTP_REFERER=http://rakipsiteler.vrl/gii/default/index
 ---
+2013/01/22 23:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/01/22 23:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/01/27 22:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/01/27 22:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/01/28 20:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/01/28 20:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/11 21:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/11 21:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/11 23:53:11 [error] [php] Undefined property: DateTime::$date (/var/www/rakipsiteler/protected/models/vtKullanici.php:49)
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModel.php(303): vtKullanici->getValidators()
+#1 /var/www/YiiRoot/framework/web/helpers/CHtml.php(1237): vtKullanici->isAttributeRequired()
+#2 /var/www/YiiRoot/framework/web/widgets/CActiveForm.php(562): activeLabelEx()
+#3 /var/www/rakipsiteler/protected/views/kullanici/_form.php(19): CActiveForm->labelEx()
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require()
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): KullaniciController->renderInternal()
+#6 /var/www/YiiRoot/framework/web/CController.php(869): KullaniciController->renderFile()
+#7 /var/www/rakipsiteler/protected/views/kullanici/create.php(18): KullaniciController->renderPartial()
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require()
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): KullaniciController->renderInternal()
+#10 /var/www/YiiRoot/framework/web/CController.php(869): KullaniciController->renderFile()
+#11 /var/www/YiiRoot/framework/web/CController.php(782): KullaniciController->renderPartial()
+#12 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(79): KullaniciController->render()
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): KullaniciController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams()
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): KullaniciController->runAction()
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): KullaniciController->filterAccessControl()
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): KullaniciController->runActionWithFilters()
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): KullaniciController->run()
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CWebApplication->run()
+REQUEST_URI=/kullanici/create
+in /var/www/rakipsiteler/protected/models/vtKullanici.php (49)
+in /var/www/rakipsiteler/protected/views/kullanici/_form.php (19)
+in /var/www/rakipsiteler/protected/views/kullanici/create.php (18)
+2013/02/11 23:54:21 [error] [php] Undefined property: DateTime::$date (/var/www/rakipsiteler/protected/models/vtKullanici.php:52)
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModel.php(546): vtKullanici->getValidators()
+#1 /var/www/YiiRoot/framework/base/CModel.php(467): vtKullanici->getSafeAttributeNames()
+#2 /var/www/YiiRoot/framework/base/CComponent.php(152): vtKullanici->setAttributes()
+#3 /var/www/YiiRoot/framework/db/ar/CActiveRecord.php(159): vtKullanici->__set()
+#4 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(72): vtKullanici->__set()
+#5 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): KullaniciController->actionCreate()
+#6 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): KullaniciController->runAction()
+#8 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/YiiRoot/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): KullaniciController->filterAccessControl()
+#11 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/YiiRoot/framework/web/CController.php(265): KullaniciController->runActionWithFilters()
+#14 /var/www/YiiRoot/framework/web/CWebApplication.php(282): KullaniciController->run()
+#15 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /var/www/rakipsiteler/index.php(13): CWebApplication->run()
+REQUEST_URI=/kullanici/create
+in /var/www/rakipsiteler/protected/models/vtKullanici.php (52)
+in /var/www/rakipsiteler/protected/controllers/KullaniciController.php (72)
+in /var/www/rakipsiteler/index.php (13)
+2013/02/11 23:55:12 [error] [php] Undefined property: DateTime::$date (/var/www/rakipsiteler/protected/models/vtKullanici.php:52)
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModel.php(546): vtKullanici->getValidators()
+#1 /var/www/YiiRoot/framework/base/CModel.php(467): vtKullanici->getSafeAttributeNames()
+#2 /var/www/YiiRoot/framework/base/CComponent.php(152): vtKullanici->setAttributes()
+#3 /var/www/YiiRoot/framework/db/ar/CActiveRecord.php(159): vtKullanici->__set()
+#4 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(72): vtKullanici->__set()
+#5 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): KullaniciController->actionCreate()
+#6 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): KullaniciController->runAction()
+#8 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/YiiRoot/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): KullaniciController->filterAccessControl()
+#11 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/YiiRoot/framework/web/CController.php(265): KullaniciController->runActionWithFilters()
+#14 /var/www/YiiRoot/framework/web/CWebApplication.php(282): KullaniciController->run()
+#15 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /var/www/rakipsiteler/index.php(13): CWebApplication->run()
+REQUEST_URI=/kullanici/create
+in /var/www/rakipsiteler/protected/models/vtKullanici.php (52)
+in /var/www/rakipsiteler/protected/controllers/KullaniciController.php (72)
+in /var/www/rakipsiteler/index.php (13)
+2013/02/11 23:55:27 [error] [php] Undefined variable: date (/var/www/rakipsiteler/protected/models/vtKullanici.php:47)
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModel.php(546): vtKullanici->getValidators()
+#1 /var/www/YiiRoot/framework/base/CModel.php(467): vtKullanici->getSafeAttributeNames()
+#2 /var/www/YiiRoot/framework/base/CComponent.php(152): vtKullanici->setAttributes()
+#3 /var/www/YiiRoot/framework/db/ar/CActiveRecord.php(159): vtKullanici->__set()
+#4 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(72): vtKullanici->__set()
+#5 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): KullaniciController->actionCreate()
+#6 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): KullaniciController->runAction()
+#8 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/YiiRoot/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): KullaniciController->filterAccessControl()
+#11 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/YiiRoot/framework/web/CController.php(265): KullaniciController->runActionWithFilters()
+#14 /var/www/YiiRoot/framework/web/CWebApplication.php(282): KullaniciController->run()
+#15 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#17 /var/www/rakipsiteler/index.php(13): CWebApplication->run()
+REQUEST_URI=/kullanici/create
+in /var/www/rakipsiteler/protected/models/vtKullanici.php (47)
+in /var/www/rakipsiteler/protected/controllers/KullaniciController.php (72)
+in /var/www/rakipsiteler/index.php (13)
+2013/02/12 00:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/rakipsiteler/protected/controllers/KullaniciController.php:157
+Stack trace:
+#0 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(55): KullaniciController->loadModel('10')
+#1 [internal function]: KullaniciController->actionView('10')
+#2 /var/www/YiiRoot/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(KullaniciController), Array)
+#3 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(KullaniciController), Object(ReflectionMethod), Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('kullanici/view')
+#14 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kullanici/10
+HTTP_REFERER=http://rakipsiteler.vrl/kullanici/create
+---
+2013/02/12 00:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/rakipsiteler/protected/controllers/KullaniciController.php:157
+Stack trace:
+#0 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(55): KullaniciController->loadModel('10')
+#1 [internal function]: KullaniciController->actionView('10')
+#2 /var/www/YiiRoot/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(KullaniciController), Array)
+#3 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(KullaniciController), Object(ReflectionMethod), Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('kullanici/view')
+#14 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kullanici/10
+HTTP_REFERER=http://rakipsiteler.vrl/kullanici/create
+---
+2013/02/12 00:03:41 [error] [exception.CException] exception 'CException' with message 'Property "vtKullanici.value" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/db/ar/CActiveRecord.php(143): CComponent->__get('value')
+#1 /var/www/rakipsiteler/protected/models/vtKullanici.php(55): CActiveRecord->__get('value')
+#2 /var/www/YiiRoot/framework/base/CModel.php(283): vtKullanici->rules()
+#3 /var/www/YiiRoot/framework/base/CModel.php(260): CModel->createValidators()
+#4 /var/www/YiiRoot/framework/base/CModel.php(303): CModel->getValidators('takmaAd')
+#5 /var/www/YiiRoot/framework/web/helpers/CHtml.php(1237): CModel->isAttributeRequired('takmaAd')
+#6 /var/www/YiiRoot/framework/web/widgets/CActiveForm.php(562): CHtml::activeLabelEx(Object(vtKullanici), 'takmaAd', Array)
+#7 /var/www/rakipsiteler/protected/views/kullanici/_form.php(19): CActiveForm->labelEx(Object(vtKullanici), 'takmaAd')
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#10 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#11 /var/www/rakipsiteler/protected/views/kullanici/create.php(18): CController->renderPartial('_form', Array)
+#12 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#13 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#14 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#15 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#16 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(79): CController->render('create', Array)
+#17 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): KullaniciController->actionCreate()
+#18 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#25 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#27 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('kullanici/creat...')
+#28 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#29 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/kullanici/create
+HTTP_REFERER=http://rakipsiteler.vrl/kullanici/1
+---
+2013/02/12 00:16:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:16:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:16:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:17:12 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.Site" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(220): CComponent->__set('Site', 'AnaSayfa/index')
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/YiiRoot/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:17:19 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.Home" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(220): CComponent->__set('Home', 'AnaSayfa/index')
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/YiiRoot/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:17:21 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.Home" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(220): CComponent->__set('Home', 'AnaSayfa/index')
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
+#3 /var/www/YiiRoot/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:19:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:19:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index
+HTTP_REFERER=http://rakipsiteler.vrl/site/page?view=about
+---
+2013/02/12 00:19:19 [error] [exception.CException] exception 'CException' with message 'AnaSayfaController cannot find the requested view "index".' in /var/www/YiiRoot/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/rakipsiteler/protected/controllers/AnaSayfaController.php(32): CController->render('index')
+#2 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): AnaSayfaController->actionIndex()
+#3 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2013/02/12 00:19:55 [error] [exception.CException] exception 'CException' with message 'AnaSayfaController cannot find the requested view "index".' in /var/www/YiiRoot/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/rakipsiteler/protected/controllers/AnaSayfaController.php(32): CController->render('index')
+#2 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): AnaSayfaController->actionIndex()
+#3 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2013/02/12 00:20:19 [error] [exception.CException] exception 'CException' with message 'AnaSayfaController cannot find the requested view "index".' in /var/www/YiiRoot/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/rakipsiteler/protected/controllers/AnaSayfaController.php(32): CController->render('index')
+#2 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): AnaSayfaController->actionIndex()
+#3 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa')
+#8 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/AnaSayfa
+---
+2013/02/12 00:20:57 [error] [exception.CException] exception 'CException' with message 'AnaSayfaController cannot find the requested view "index".' in /var/www/YiiRoot/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/rakipsiteler/protected/controllers/AnaSayfaController.php(32): CController->render('index')
+#2 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): AnaSayfaController->actionIndex()
+#3 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa')
+#8 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/AnaSayfa
+---
+2013/02/12 00:20:59 [error] [exception.CException] exception 'CException' with message 'AnaSayfaController cannot find the requested view "index".' in /var/www/YiiRoot/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/rakipsiteler/protected/controllers/AnaSayfaController.php(32): CController->render('index')
+#2 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): AnaSayfaController->actionIndex()
+#3 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa')
+#8 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/AnaSayfa
+---
+2013/02/12 00:20:59 [error] [exception.CException] exception 'CException' with message 'AnaSayfaController cannot find the requested view "index".' in /var/www/YiiRoot/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/rakipsiteler/protected/controllers/AnaSayfaController.php(32): CController->render('index')
+#2 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): AnaSayfaController->actionIndex()
+#3 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa')
+#8 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/AnaSayfa
+---
+2013/02/12 00:20:59 [error] [exception.CException] exception 'CException' with message 'AnaSayfaController cannot find the requested view "index".' in /var/www/YiiRoot/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/rakipsiteler/protected/controllers/AnaSayfaController.php(32): CController->render('index')
+#2 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): AnaSayfaController->actionIndex()
+#3 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa')
+#8 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/AnaSayfa
+---
+2013/02/12 00:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/rakipsiteler/protected/controllers/KullaniciController.php:161
+Stack trace:
+#0 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(55): KullaniciController->loadModel('3')
+#1 [internal function]: KullaniciController->actionView('3')
+#2 /var/www/YiiRoot/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(KullaniciController), Array)
+#3 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(KullaniciController), Object(ReflectionMethod), Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('kullanici/view')
+#14 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kullanici/3
+HTTP_REFERER=http://rakipsiteler.vrl/kullanici/create
+---
+2013/02/12 00:21:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/rakipsiteler/protected/controllers/KullaniciController.php:161
+Stack trace:
+#0 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(55): KullaniciController->loadModel('3')
+#1 [internal function]: KullaniciController->actionView('3')
+#2 /var/www/YiiRoot/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(KullaniciController), Array)
+#3 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(KullaniciController), Object(ReflectionMethod), Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('kullanici/view')
+#14 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kullanici/3
+HTTP_REFERER=http://rakipsiteler.vrl/kullanici/create
+---
+2013/02/12 00:22:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/rakipsiteler/protected/controllers/KullaniciController.php:161
+Stack trace:
+#0 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(55): KullaniciController->loadModel('3')
+#1 [internal function]: KullaniciController->actionView('3')
+#2 /var/www/YiiRoot/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(KullaniciController), Array)
+#3 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(KullaniciController), Object(ReflectionMethod), Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('kullanici/view')
+#14 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kullanici/3
+HTTP_REFERER=http://rakipsiteler.vrl/kullanici/create
+---
+2013/02/12 00:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa
+---
+2013/02/12 00:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/index
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa
+---
+2013/02/12 00:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/page".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/page')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/page?view=about
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/index
+---
+2013/02/12 00:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/contact".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/contac...')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/contact
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/page?view=about
+---
+2013/02/12 00:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/index
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/contact
+---
+2013/02/12 00:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/page".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/page')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/page?view=about
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/index
+---
+2013/02/12 00:22:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/contact".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/contac...')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/contact
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/page?view=about
+---
+2013/02/12 00:22:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/logout".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/logout')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/logout
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/contact
+---
+2013/02/12 00:22:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/contact".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/contac...')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/contact
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/logout
+---
+2013/02/12 00:22:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/page".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/page')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/page?view=about
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/contact
+---
+2013/02/12 00:22:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/page".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/page')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/page?view=about
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/page?view=about
+---
+2013/02/12 00:22:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/index
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/page?view=about
+---
+2013/02/12 00:23:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/index
+HTTP_REFERER=http://rakipsiteler.vrl/
+---
+2013/02/12 00:23:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/page".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/page')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/page?view=about
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/index
+---
+2013/02/12 00:23:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/contact".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/contac...')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/contact
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/page?view=about
+---
+2013/02/12 00:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/index
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/contact
+---
+2013/02/12 00:23:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AnaSayfa/index".' in /var/www/YiiRoot/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('AnaSayfa/index')
+#1 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AnaSayfa/index
+HTTP_REFERER=http://rakipsiteler.vrl/AnaSayfa/contact
+---
+2013/02/12 00:25:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/rakipsiteler/protected/controllers/KullaniciController.php:161
+Stack trace:
+#0 /var/www/rakipsiteler/protected/controllers/KullaniciController.php(55): KullaniciController->loadModel('3')
+#1 [internal function]: KullaniciController->actionView('3')
+#2 /var/www/YiiRoot/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(KullaniciController), Array)
+#3 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(KullaniciController), Object(ReflectionMethod), Array)
+#4 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('kullanici/view')
+#14 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kullanici/3
+HTTP_REFERER=http://rakipsiteler.vrl/kullanici/create
+---
+2013/02/12 00:33:16 [error] [php] Use of undefined constant value - assumed 'value' (/var/www/rakipsiteler/protected/views/siteBilgi/_form.php:38)
+Stack trace:
+#0 /var/www/YiiRoot/framework/web/CController.php(869): SiteBilgiController->renderFile()
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): SiteBilgiController->renderPartial()
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require()
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): SiteBilgiController->renderInternal()
+#4 /var/www/YiiRoot/framework/web/CController.php(869): SiteBilgiController->renderFile()
+#5 /var/www/YiiRoot/framework/web/CController.php(782): SiteBilgiController->renderPartial()
+#6 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): SiteBilgiController->render()
+#7 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#8 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): SiteBilgiController->runAction()
+#10 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/YiiRoot/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): SiteBilgiController->filterAccessControl()
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(265): SiteBilgiController->runActionWithFilters()
+#16 /var/www/YiiRoot/framework/web/CWebApplication.php(282): SiteBilgiController->run()
+#17 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /var/www/rakipsiteler/index.php(13): CWebApplication->run()
+REQUEST_URI=/siteBilgi/create?
+in /var/www/rakipsiteler/protected/views/siteBilgi/_form.php (38)
+in /var/www/rakipsiteler/protected/views/siteBilgi/create.php (18)
+in /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php (79)
+2013/02/12 01:00:50 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "xmt".' in /var/www/YiiRoot/framework/base/CComponent.php:265
+Stack trace:
+#0 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CComponent->__call('xmt', Array)
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CWebApplication->xmt()
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:01:04 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "xmt".' in /var/www/YiiRoot/framework/base/CComponent.php:265
+Stack trace:
+#0 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CComponent->__call('xmt', Array)
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CWebApplication->xmt()
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:11:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xmt" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModule.php(105): CComponent->__get('xmt')
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:11:41 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xmt" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModule.php(105): CComponent->__get('xmt')
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:12:31 [error] [exception.CException] exception 'CException' with message 'Alias "ext.xmt" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/YiiRoot/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(196): YiiBase::import('ext.xmt', true)
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CModule.php(103): CModule->getComponent('xmtHelper')
+#3 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmtHelper')
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#6 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#7 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#10 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#11 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:13:17 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "xmtHelper".' in /var/www/YiiRoot/framework/base/CComponent.php:265
+Stack trace:
+#0 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CComponent->__call('xmtHelper', Array)
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CWebApplication->xmtHelper()
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:13:56 [error] [exception.CException] exception 'CException' with message 'Alias "ext.xmt" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/YiiRoot/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(196): YiiBase::import('ext.xmt', true)
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CModule.php(103): CModule->getComponent('xmtHelper')
+#3 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmtHelper')
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#6 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#7 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#10 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#11 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:14:07 [error] [php] include(/var/www/rakipsiteler/protected/extensions/xmt.php): failed to open stream: No such file or directory (/var/www/YiiRoot/framework/YiiBase.php:421)
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(217): spl_autoload_call()
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): createComponent()
+#2 /var/www/YiiRoot/framework/base/CModule.php(103): CWebApplication->getComponent()
+#3 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CWebApplication->__get()
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require()
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): SiteBilgiController->renderInternal()
+#6 /var/www/YiiRoot/framework/web/CController.php(869): SiteBilgiController->renderFile()
+#7 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): SiteBilgiController->renderPartial()
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require()
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): SiteBilgiController->renderInternal()
+#10 /var/www/YiiRoot/framework/web/CController.php(869): SiteBilgiController->renderFile()
+#11 /var/www/YiiRoot/framework/web/CController.php(782): SiteBilgiController->renderPartial()
+#12 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): SiteBilgiController->render()
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams()
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): SiteBilgiController->runAction()
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): SiteBilgiController->filterAccessControl()
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): SiteBilgiController->runActionWithFilters()
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): SiteBilgiController->run()
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CWebApplication->run()
+REQUEST_URI=/siteBilgi/create?
+in /var/www/rakipsiteler/protected/views/siteBilgi/_form.php (23)
+in /var/www/rakipsiteler/protected/views/siteBilgi/create.php (18)
+in /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php (79)
+2013/02/12 01:14:22 [error] [exception.CException] exception 'CException' with message 'Alias "ext.xmt" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/YiiRoot/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(196): YiiBase::import('ext.xmt', true)
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CModule.php(103): CModule->getComponent('xmtHelper')
+#3 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmtHelper')
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#6 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#7 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#10 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#11 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:15:31 [error] [exception.CException] exception 'CException' with message 'Alias "ext.xmt" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/YiiRoot/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(196): YiiBase::import('ext.xmt', true)
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CModule.php(103): CModule->getComponent('xmtHelper')
+#3 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmtHelper')
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#6 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#7 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#10 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#11 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:15:43 [error] [exception.CException] exception 'CException' with message 'Alias "ext.xmt" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/YiiRoot/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(196): YiiBase::import('ext.xmt', true)
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CModule.php(103): CModule->getComponent('xmtHelper')
+#3 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmtHelper')
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#6 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#7 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#10 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#11 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:15:58 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xmt" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModule.php(105): CComponent->__get('xmt')
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:16:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xmtHelper" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModule.php(105): CComponent->__get('xmtHelper')
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmtHelper')
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:16:20 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "xmt".' in /var/www/YiiRoot/framework/base/CComponent.php:265
+Stack trace:
+#0 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CComponent->__call('xmt', Array)
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CWebApplication->xmt()
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:16:40 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xmt" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModule.php(105): CComponent->__get('xmt')
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:17:32 [error] [exception.CException] exception 'CException' with message 'Alias "ext.xmt" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/YiiRoot/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(196): YiiBase::import('ext.xmt', true)
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CModule.php(103): CModule->getComponent('xmt')
+#3 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#6 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#7 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#10 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#11 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:18:19 [error] [exception.CException] exception 'CException' with message 'Alias "ext.xmt" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/YiiRoot/framework/YiiBase.php:316
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(196): YiiBase::import('ext.xmt', true)
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CModule.php(103): CModule->getComponent('xmt')
+#3 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#6 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#7 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#10 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#11 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:18:55 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.xmt" is invalid. Make sure it points to an existing directory or file.' in /var/www/YiiRoot/framework/YiiBase.php:341
+Stack trace:
+#0 /var/www/YiiRoot/framework/YiiBase.php(196): YiiBase::import('extensions.xmt', true)
+#1 /var/www/YiiRoot/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/YiiRoot/framework/base/CModule.php(103): CModule->getComponent('xmt')
+#3 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#4 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#5 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#6 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#7 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#8 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#9 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#10 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#11 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#13 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#14 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#24 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#25 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:19:22 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xmt" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModule.php(105): CComponent->__get('xmt')
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:19:29 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xmt" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModule.php(105): CComponent->__get('xmt')
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:21:46 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xmt" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModule.php(105): CComponent->__get('xmt')
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---
+2013/02/12 01:23:05 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.xmt" is not defined.' in /var/www/YiiRoot/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/YiiRoot/framework/base/CModule.php(105): CComponent->__get('xmt')
+#1 /var/www/rakipsiteler/protected/views/siteBilgi/_form.php(23): CModule->__get('xmt')
+#2 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#3 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#4 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#5 /var/www/rakipsiteler/protected/views/siteBilgi/create.php(18): CController->renderPartial('_form', Array)
+#6 /var/www/YiiRoot/framework/web/CBaseController.php(126): require('/var/www/rakips...')
+#7 /var/www/YiiRoot/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/rakips...', Array, true)
+#8 /var/www/YiiRoot/framework/web/CController.php(869): CBaseController->renderFile('/var/www/rakips...', Array, true)
+#9 /var/www/YiiRoot/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /var/www/rakipsiteler/protected/controllers/SiteBilgiController.php(79): CController->render('create', Array)
+#11 /var/www/YiiRoot/framework/web/actions/CInlineAction.php(49): SiteBilgiController->actionCreate()
+#12 /var/www/YiiRoot/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /var/www/YiiRoot/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /var/www/YiiRoot/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /var/www/YiiRoot/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /var/www/YiiRoot/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /var/www/YiiRoot/framework/web/CController.php(291): CFilterChain->run()
+#19 /var/www/YiiRoot/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/YiiRoot/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /var/www/YiiRoot/framework/web/CWebApplication.php(141): CWebApplication->runController('siteBilgi/creat...')
+#22 /var/www/YiiRoot/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#23 /var/www/rakipsiteler/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/siteBilgi/create?
+HTTP_REFERER=http://rakipsiteler.vrl/siteBilgi/create
+---

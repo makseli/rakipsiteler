@@ -10,8 +10,9 @@
  * @property string $soyisim
  * @property string $eposta
  * @property string $sifre
- * @property string $kayitTarih
- * @property string $ip
+ * @property string $KayitTarihi
+ * @property string $last_login_ip
+ * @property string $last_login_date
  * @property string $xmUrl
  */
 class vtKullanici extends CActiveRecord
@@ -41,13 +42,16 @@ class vtKullanici extends CActiveRecord
 	{
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
-		return array(
-			array('takmaAd, isim, soyisim, eposta, sifre, kayitTarih, ip, xmUrl', 'required'),
-			array('takmaAd, isim, soyisim, xmUrl', 'length', 'max'=>32),
-			array('eposta, sifre, ip', 'length', 'max'=>128),
-			// The following rule is used by search().
-			// Please remove those attributes that should not be searched.
-			array('id, takmaAd, isim, soyisim, eposta, sifre, kayitTarih, ip, xmUrl', 'safe', 'on'=>'search'),
+		
+		//$datem = new DateTime(date('d-m-Y'));
+		//print_pre($datem);
+		//die();
+		
+		return array(				
+			array('takmaAd, isim, soyisim, eposta, sifre', 'required'),
+			array('takmaAd, isim, soyisim', 'length', 'max'=>32),
+			array('eposta, sifre, last_login_ip, xmUrl', 'length', 'max'=>128),
+			array('id, takmaAd, isim, soyisim, eposta, sifre, KayitTarihi, last_login_ip, last_login_date, xmUrl', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -74,8 +78,9 @@ class vtKullanici extends CActiveRecord
 			'soyisim' => 'Soyisim',
 			'eposta' => 'Eposta',
 			'sifre' => 'Sifre',
-			'kayitTarih' => 'Kayit Tarih',
-			'ip' => 'Ip',
+			'KayitTarihi' => 'Kayit Tarihi',
+			'last_login_ip' => 'Last Login Ip',
+			'last_login_date' => 'Last Login Date',
 			'xmUrl' => 'Xm Url',
 		);
 	}
@@ -97,8 +102,9 @@ class vtKullanici extends CActiveRecord
 		$criteria->compare('soyisim',$this->soyisim,true);
 		$criteria->compare('eposta',$this->eposta,true);
 		$criteria->compare('sifre',$this->sifre,true);
-		$criteria->compare('kayitTarih',$this->kayitTarih,true);
-		$criteria->compare('ip',$this->ip,true);
+		$criteria->compare('KayitTarihi',$this->KayitTarihi,true);
+		$criteria->compare('last_login_ip',$this->last_login_ip,true);
+		$criteria->compare('last_login_date',$this->last_login_date,true);
 		$criteria->compare('xmUrl',$this->xmUrl,true);
 
 		return new CActiveDataProvider($this, array(

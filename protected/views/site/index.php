@@ -1,16 +1,12 @@
 <?php $this->pageTitle=Yii::app()->name; ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+<h1><i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
 
-<p>You may change the content of this page by modifying the following two files:</p>
+<p>Bu sitede <strong>ilerde</strong> yapabilecekleriniz:</p>
 <ul>
-	<li>View file: <tt><?php echo __FILE__; ?></tt></li>
-	<li>Layout file: <tt><?php echo $this->getLayoutFile('main'); ?></tt></li>
+	<li>Sizin sitenize <strong>rakip sitelerin</strong> profillerini kaydedebileceğiniz </li>
+	<li>Pagerank, Arama Motorları Index sayıları, Whois bilgileri gibi spesifik bilgileri kaydedebileceğiniz</li>
 </ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+bir sistem oluşturmayı planlıyoruz, eğer bize yardımcı olmak, test kullanıcısı açma isteği veya projeye katkınızın olacağını düşünüyorsanız
+<br /> lütfen bizimle iletişime geçiniz. Her türlü bilgi için <strong>iletisim {et ] rakip markaj .kom </strong> a yazabilirsiniz... </p>

@@ -2,10 +2,10 @@
 -- version 3.4.10.1deb1
 -- http://www.phpmyadmin.net
 --
--- Anamakine: localhost
--- Üretim Zamanı: 06 Oca 2013, 23:18:53
--- Sunucu sürümü: 5.5.28
--- PHP Sürümü: 5.3.10-1ubuntu3.4
+-- Host: localhost
+-- Generation Time: Feb 12, 2013 at 01:34 AM
+-- Server version: 5.5.29
+-- PHP Version: 5.3.10-1ubuntu3.5
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Veritabanı: `rakip_site`
+-- Database: `rakip_site`
 --
 
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `kullanici`
+-- Table structure for table `kullanici`
 --
 
 CREATE TABLE IF NOT EXISTS `kullanici` (
@@ -33,16 +33,17 @@ CREATE TABLE IF NOT EXISTS `kullanici` (
   `soyisim` varchar(32) NOT NULL,
   `eposta` varchar(128) NOT NULL,
   `sifre` varchar(128) NOT NULL,
-  `kayitTarih` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `ip` varchar(128) NOT NULL,
-  `xmUrl` varchar(32) NOT NULL,
+  `KayitTarihi` date NOT NULL,
+  `last_login_ip` varchar(128) NOT NULL,
+  `last_login_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `xmUrl` varchar(128) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `kullanici_site_iliski`
+-- Table structure for table `kullanici_site_iliski`
 --
 
 CREATE TABLE IF NOT EXISTS `kullanici_site_iliski` (
@@ -55,24 +56,7 @@ CREATE TABLE IF NOT EXISTS `kullanici_site_iliski` (
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `kullanici_takip`
---
-
-CREATE TABLE IF NOT EXISTS `kullanici_takip` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `kullanici_id` int(11) NOT NULL,
-  `takipAdi` varchar(64) NOT NULL COMMENT 'takip ettiği siteleri kategorilendirmesi için',
-  `kayitTarih` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `takipAciklama` varchar(2048) NOT NULL,
-  `ozel` tinyint(1) NOT NULL DEFAULT '0',
-  `xmUrl` varchar(674) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
-
--- --------------------------------------------------------
-
---
--- Tablo için tablo yapısı `siteler`
+-- Table structure for table `siteler`
 --
 
 CREATE TABLE IF NOT EXISTS `siteler` (
@@ -97,7 +81,7 @@ CREATE TABLE IF NOT EXISTS `siteler` (
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `site_etiket`
+-- Table structure for table `site_etiket`
 --
 
 CREATE TABLE IF NOT EXISTS `site_etiket` (
@@ -112,14 +96,30 @@ CREATE TABLE IF NOT EXISTS `site_etiket` (
 -- --------------------------------------------------------
 
 --
--- Tablo için tablo yapısı `site_etiket_iliski`
+-- Table structure for table `site_grup_takip`
 --
 
-CREATE TABLE IF NOT EXISTS `site_etiket_iliski` (
+CREATE TABLE IF NOT EXISTS `site_grup_takip` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `site_id` int(11) NOT NULL,
-  `etiket_id` int(11) NOT NULL,
+  `takip_grup_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `takip_grup`
+--
+
+CREATE TABLE IF NOT EXISTS `takip_grup` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `kullanici_id` int(11) NOT NULL,
+  `takipAdi` varchar(64) NOT NULL COMMENT 'takip ettiği siteleri kategorilendirmesi için',
   `kayitTarih` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `takipAciklama` varchar(2048) NOT NULL,
+  `ozel` tinyint(1) NOT NULL DEFAULT '0',
+  `xmUrl` varchar(674) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
